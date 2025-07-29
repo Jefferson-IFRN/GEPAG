@@ -89,7 +89,7 @@ RTC_DATA_ATTR bool tensaoCritica = false; // Salva estado de tensão crítica no
 RTC_DATA_ATTR int Ciclos = 0;*/
 
 const float LIMIAR_DESLIGAMENTO = 3.3;  // Desliga abaixo de 3.3V
-const float LIMIAR_RELIGAMENTO = 3.6;   // Religar acima de 3.6V
+const float LIMIAR_RELIGAMENTO = 3.6;   // Religar acima de 3.60V
 enum EstadoBotao {
   AGUARDANDO_PRIMEIRO,
   AGUARDANDO_SEGUNDO,
